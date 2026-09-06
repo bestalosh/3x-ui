@@ -2,7 +2,7 @@
 echo -e "\nDownloading x-ui custom release from GitHub..."
 
 # دانلود فایل زیپ از بخش Release شما
-wget -N --no-check-certificate -O x-ui.zip "https://github.com/bestalosh/3x-ui/releases/download/v1.0/x-ui.zip"
+wget -N --no-check-certificate -O x-ui.zip "https://github.com/bestalosh/3x-ui/releases/download/2026.09.07/x-ui.zip"
 
 if [[ $? -ne 0 ]]; then
     echo "Failed to download the release. Check the URL or make sure the repo is Public."
