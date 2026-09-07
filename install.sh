@@ -4,7 +4,7 @@
 # Customization: fixed v2.9.4 + Normal/Protected archive selection.
 # Upload this single install.sh to your own GitHub repository or Release.
 # Release assets are xray-linux-ARCH.tar.gz, each containing xray-linux-ARCH.
-PROTECTED_RELEASE_BASE="https://github.com/bestalosh/3x-ui/releases/download/2026.09.07"
+PROTECTED_RELEASE_BASE="https://github.com/bestalosh/3x-ui/releases/download/2026.09.08"
 
 # This installer intentionally installs only Sanaei v2.9.4.
 if [[ $# -gt 1 || ( $# -eq 1 && "$1" != "v2.9.4" && "$1" != "2.9.4" ) ]]; then
